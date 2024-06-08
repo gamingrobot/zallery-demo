@@ -16,7 +16,8 @@ taxonomies = [
 [extra]
 menu = [
     {url = "atom.xml", name = "Feed"},
-    {url = "https://github.com/gamingrobot/zallery", name = "Github"},
+    {url = "https://github.com/gamingrobot/zallery", name = "Theme"},
+    {url = "https://github.com/gamingrobot/zallery-demo", name = "Demo Source"},
 ]
 
 theme_color = "#313131" # color for browser
