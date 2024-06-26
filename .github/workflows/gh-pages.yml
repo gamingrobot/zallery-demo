@@ -15,7 +15,7 @@ jobs:
         with:
           tool: zola@0.19.1
       - name: Build and Deploy
-        run: scripts/deploy.sh
+        run: bash ${GITHUB_WORKSPACE}/.github/scripts/deploy.sh
         env:
           PAGES_BRANCH: gh-pages
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
