@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Zallery</title>
+    <subtitle>Zallery</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://gamingrobot.github.io/zallery-demo/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-12-01T00:00:00+00:00</updated>
+    <id>https://gamingrobot.github.io/zallery-demo/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Basic Example Using Markdown Images</title>
+        <published>2024-12-01T00:00:00+00:00</published>
+        <updated>2024-12-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/example-markdown/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/example-markdown/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/example-markdown/">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-markdown&#x2F;pexels-andyhvu-3484061.jpg&quot; alt=&quot;image1&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Image Description&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-markdown&#x2F;pexels-lastly-808465.jpg&quot; alt=&quot;image2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Img Shortcode Example</title>
+        <published>2024-11-01T00:00:00+00:00</published>
+        <updated>2024-11-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/example-img-shortcode/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/example-img-shortcode/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/example-img-shortcode/">&lt;p&gt;&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-eberhardgross-1624438.94bcee04c3eb3c54.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-img-shortcode&#x2F;pexels-eberhardgross-1624438.jpg&quot; alt=&quot;The default fit for images is fit to screen&quot; loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-img-shortcode&#x2F;pexels-eberhardgross-1624438.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+  &lt;figcaption&gt;
+    &lt;span class=&quot;img-caption&quot;&gt;The default fit for images is fit to screen&lt;&#x2F;span&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure class=max-width&gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-eberhardgross-1624438.94bcee04c3eb3c54.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-img-shortcode&#x2F;pexels-eberhardgross-1624438.jpg&quot;  loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-img-shortcode&#x2F;pexels-eberhardgross-1624438.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This image fit is set to &lt;code&gt;max-width&lt;&#x2F;code&gt; so it fills the width of the screen even if it overflows vertically&lt;&#x2F;p&gt;
+&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-eberhardgross-1624438.94bcee04c3eb3c54.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-img-shortcode&#x2F;pexels-eberhardgross-1624438.jpg&quot;  loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-img-shortcode&#x2F;pexels-eberhardgross-1624438.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;This image has a mobile friendly version&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>3D Shortcode Examples</title>
+        <published>2024-02-01T00:00:00+00:00</published>
+        <updated>2024-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/example-3d-shortcode/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/example-3d-shortcode/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/example-3d-shortcode/">&lt;model-viewer class=&quot;model-viewer&quot;
+    camera-controls
+    disable-zoom
+    touch-action=&quot;pan-y&quot;
+    src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-3d-shortcode&#x2F;astronaut.glb&quot;
+    
+    poster=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-3d-shortcode&#x2F;poster-astronaut.png&quot;
+    
+    loading=&quot;lazy&quot;&gt;
+&lt;&#x2F;model-viewer&gt;
+&lt;p&gt;Model viewer with basic model and loading poster&lt;&#x2F;p&gt;
+&lt;model-viewer class=&quot;model-viewer&quot;
+    camera-controls
+    disable-zoom
+    touch-action=&quot;pan-y&quot;
+    src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-3d-shortcode&#x2F;damagedhelmet.glb&quot;
+    skybox-image=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-3d-shortcode&#x2F;aircraft_workshop_01_1k.hdr&quot;
+    
+    
+    loading=&quot;lazy&quot;&gt;
+&lt;&#x2F;model-viewer&gt;
+&lt;p&gt;Model viewer with hdr&lt;&#x2F;p&gt;
+&lt;div class=&quot;sketchfab&quot;&gt;
+    &lt;iframe width=&quot;540px&quot; height=&quot;315px&quot;
+        src=&quot;https:&#x2F;&#x2F;sketchfab.com&#x2F;models&#x2F;82eaf2047e0447a1bfea22482f1d1404&#x2F;embed&quot;
+        frameborder=&quot;0&quot;
+        title=&quot;Sketchfab player&quot;
+        allow=&quot;autoplay; fullscreen; xr-spatial-tracking&quot;
+        webkitallowfullscreen mozallowfullscreen allowfullscreen xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+        loading=&quot;lazy&quot;&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Sketchfab&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Video Shortcode Examples</title>
+        <published>2024-02-01T00:00:00+00:00</published>
+        <updated>2024-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/example-video-shortcode/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/example-video-shortcode/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/example-video-shortcode/">&lt;video   controls&gt;
+    &lt;source src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-video-shortcode&#x2F;hand.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+    Your browser doesn&#x27;t support the video.
+&lt;&#x2F;video&gt;
+&lt;p&gt;Video&lt;&#x2F;p&gt;
+&lt;video autoplay  controls&gt;
+    &lt;source src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;example-video-shortcode&#x2F;hand.mp4&quot; type=&quot;video&#x2F;mp4&quot; &#x2F;&gt;
+    Your browser doesn&#x27;t support the video.
+&lt;&#x2F;video&gt;
+&lt;p&gt;Video with autoplay enabled&lt;&#x2F;p&gt;
+&lt;div class=&quot;iframe-video&quot;&gt;
+    &lt;iframe width=&quot;540px&quot; height=&quot;315px&quot;
+        src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;WhWc3b3KhnY&quot;
+        title=&quot;YouTube video player&quot;
+        frameborder=&quot;0&quot;
+        allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+        referrerpolicy=&quot;strict-origin-when-cross-origin&quot;
+        webkitallowfullscreen mozallowfullscreen allowfullscreen
+        loading=&quot;lazy&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Youtube&lt;&#x2F;p&gt;
+&lt;div class=&quot;iframe-video&quot;&gt;
+    &lt;iframe width=&quot;540px&quot; height=&quot;315px&quot;
+        src=&quot;https:&#x2F;&#x2F;player.vimeo.com&#x2F;video&#x2F;325910798?embedded=true&quot; title=&quot;Vimeo video player&quot;
+        frameborder=&quot;0&quot;
+        allow=&quot;autoplay; fullscreen; picture-in-picture&quot;
+        webkitallowfullscreen mozallowfullscreen allowfullscreen
+        loading=&quot;lazy&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Vimeo&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Long Description</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/long-description/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/long-description/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/long-description/">&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-pixabay-161950.3c8e94da9e9cf8e0.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;long-description&#x2F;pexels-pixabay-161950.jpg&quot; alt=&quot;A landscape photo&quot; loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;long-description&#x2F;pexels-pixabay-161950.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Missing Thumbnail</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/missing-thumbnail/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/missing-thumbnail/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/missing-thumbnail/">&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-pixabay-161950.3df423e0d52bdb49.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;missing-thumbnail&#x2F;pexels-pixabay-161950.jpg&quot; alt=&quot;A landscape photo&quot; loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;missing-thumbnail&#x2F;pexels-pixabay-161950.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Small Images</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/small-images/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/small-images/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/small-images/">&lt;p&gt;&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;small-images&#x2F;pexels-mdx014-814499.jpg&quot;  loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;small-images&#x2F;pexels-mdx014-814499.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure class=max-width&gt;
+  &lt;picture&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;small-images&#x2F;pexels-mdx014-814499.jpg&quot;  loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;small-images&#x2F;pexels-mdx014-814499.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Landscape1</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/landscape1/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/landscape1/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/landscape1/">&lt;p&gt;&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-nickkwanhk-2745258.653f3fdaea75e461.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape1&#x2F;pexels-nickkwanhk-2745258.jpg&quot; alt=&quot;A landscape photo&quot; loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape1&#x2F;pexels-nickkwanhk-2745258.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-nickkwanhk-2745258.653f3fdaea75e461.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape1&#x2F;pexels-nickkwanhk-2745258.jpg&quot; alt=&quot;A landscape photo&quot; loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape1&#x2F;pexels-nickkwanhk-2745258.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Landscape2</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/landscape2/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/landscape2/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/landscape2/">&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-pixabay-355465.cf0f8b26d5ee1142.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape2&#x2F;pexels-pixabay-355465.jpg&quot; alt=&quot;A landscape photo&quot; loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape2&#x2F;pexels-pixabay-355465.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Landscape3</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/landscape3/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/landscape3/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/landscape3/">&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-riciardus-789380.8b58959bafaa53d4.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape3&#x2F;pexels-riciardus-789380.jpg&quot; alt=&quot;A landscape photo&quot; loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape3&#x2F;pexels-riciardus-789380.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Landscape4</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              John Doe
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gamingrobot.github.io/zallery-demo/artwork/landscape4/"/>
+        <id>https://gamingrobot.github.io/zallery-demo/artwork/landscape4/</id>
+        
+        <content type="html" xml:base="https://gamingrobot.github.io/zallery-demo/artwork/landscape4/">&lt;figure &gt;
+  &lt;picture&gt;
+      &lt;source media=&quot;(max-width: 768px)&quot; srcset=&quot;https:&amp;#x2F;&amp;#x2F;gamingrobot.github.io&amp;#x2F;zallery-demo&amp;#x2F;processed_images&amp;#x2F;pexels-sebastian-palomino-933481-1955134.242846f6a7a00f30.webp&quot;&gt;
+      &lt;img src=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape4&#x2F;pexels-sebastian-palomino-933481-1955134.jpg&quot; alt=&quot;A landscape photo&quot; loading=&quot;lazy&quot;&gt;
+    &lt;div class=&quot;img-action&quot;&gt;
+      &lt;a class=&quot;action&quot; href=&quot;https:&#x2F;&#x2F;gamingrobot.github.io&#x2F;zallery-demo&#x2F;artwork&#x2F;landscape4&#x2F;pexels-sebastian-palomino-933481-1955134.jpg&quot;&gt;
+&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; class=&quot;feather feather-maximize-2&quot;&gt;&lt;polyline points=&quot;15 3 21 3 21 9&quot;&gt;&lt;&#x2F;polyline&gt;&lt;polyline points=&quot;9 21 3 21 3 15&quot;&gt;&lt;&#x2F;polyline&gt;&lt;line x1=&quot;21&quot; y1=&quot;3&quot; x2=&quot;14&quot; y2=&quot;10&quot;&gt;&lt;&#x2F;line&gt;&lt;line x1=&quot;3&quot; y1=&quot;21&quot; x2=&quot;10&quot; y2=&quot;14&quot;&gt;&lt;&#x2F;line&gt;&lt;&#x2F;svg&gt;
+&lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;
+  &lt;&#x2F;picture&gt;
+&lt;&#x2F;figure&gt;</content>
+        
+    </entry>
+</feed>
