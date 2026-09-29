@@ -8,5 +8,5 @@ tags = ["Example"]
 thumbnail = "pexels-mdx014-814499.jpg"
 +++
 
-{{ img(src="pexels-mdx014-814499.jpg") }}
-{{ img(src="pexels-mdx014-814499.jpg", fit="max-width") }}
+{{ <img src="pexels-mdx014-814499.jpg"/> }}
+{{ <img src="pexels-mdx014-814499.jpg" fit="max-width"/> }}

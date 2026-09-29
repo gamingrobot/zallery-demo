@@ -8,5 +8,5 @@ tags = ["Landscape"]
 thumbnail = "pexels-nickkwanhk-2745258.jpg"
 +++
 
-{{ img(src="pexels-nickkwanhk-2745258.jpg", alt="A landscape photo") }}
-{{ img(src="pexels-nickkwanhk-2745258.jpg", alt="A landscape photo") }}
+{{ <img src="pexels-nickkwanhk-2745258.jpg" alt="A landscape photo"/> }}
+{{ <img src="pexels-nickkwanhk-2745258.jpg" alt="A landscape photo"/> }}

@@ -8,18 +8,18 @@ tags = ["Example"]
 thumbnail = "hand.png"
 +++
 
-{{ video(src="hand.mp4") }}
+{{ <video src="hand.mp4"/> }}
 
 Video
 
-{{ video(src="hand.mp4", autoplay=true) }}
+{{ <video src="hand.mp4" autoplay={true}/> }}
 
 Video with autoplay enabled
 
-{{ youtube(id="WhWc3b3KhnY") }}
+{{ <youtube id="WhWc3b3KhnY"/> }}
 
 Youtube
 
-{{ vimeo(id="325910798") }}
+{{ <vimeo id="325910798"/> }}
 
 Vimeo
